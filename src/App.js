@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './App.css';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Home from './components/Home'
 import Navigation from './components/Navigation'
@@ -15,7 +16,7 @@ class App extends Component {
             <Route exact path="/" component={Home}/>
             <Route exact path="/quotes" component={Quotes}/>
             <Route exact path="/quotes/new" component={NewQuote}/>
-            <Route exact path="/quotes/:id" component={AddQuote}/>
+            <Route exact path="/quotes/:id" component={NewQuote}/>
           </Switch>
         </div>
       </Router>
@@ -27,4 +28,3 @@ class App extends Component {
 export default App;
 
 
-//will hold Routing 

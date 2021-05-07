@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import NewButton from './NewButton'
+import NewButton from '../components/NewButton'
 
  class Quotes extends Component {
     state = {
