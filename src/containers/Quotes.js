@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import NewButton from './NewButton'
 
  class Quotes extends Component {
     state = {
@@ -23,7 +24,7 @@ componentDidMount() {
                 <hr/>
                 {quotes}
                 <br/>
-                <button>New Quote</button>
+                <NewButton/>
             </div>
         )
     }

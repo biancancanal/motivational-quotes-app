@@ -15,6 +15,7 @@ class App extends Component {
             <Route exact path="/" component={Home}/>
             <Route exact path="/quotes" component={Quotes}/>
             <Route exact path="/quotes/new" component={NewQuote}/>
+            <Route exact path="/quotes/:id" component={AddQuote}/>
           </Switch>
         </div>
       </Router>
