@@ -17,7 +17,7 @@ componentDidMount() {
     })
 }
     render() {
-        const quotes = this.state.quotes.map(q => <li>{q.quote}</li>)
+        const quotes = this.state.quotes.map(q => <li>{q.keyword}: {q.quote} - {q.author}</li>)
         return (
             <div>
                 <h3>Quotes</h3>        
