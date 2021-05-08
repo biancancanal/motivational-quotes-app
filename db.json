@@ -1,9 +1,16 @@
 {
-    "quotes" : [
-        {
-            "id": 1,
-            "quote": "you can do this!",
-            "author": "Nancy"
-        }
-    ]
+  "quotes": [
+    {
+      "keyword": "Education ",
+      "quote": "Education is the passport to the future, for tomorrow belongs to those who prepare for it today.",
+      "author": "Malcolm X",
+      "id": 1
+    },
+    {
+      "keyword": "Change",
+      "quote": "Be the change you wish to see in the world. ",
+      "author": "Mahatma Ghandi",
+      "id": 2
+    }
+  ]
 }
