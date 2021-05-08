@@ -16,7 +16,18 @@ export default class NewQuote extends Component {
 
     handleSubmit = (e) => {
         e.preventDefault()
-
+        fetch('http://localhost:3001/quotes', {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(this.state)
+        })
+        .then(r => r.json())
+        .then(data => {
+            console.log("New Quote", data)
+            // this.props.history.push('/stories')
+        })
     }
     
     render() {
