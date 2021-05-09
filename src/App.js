@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Navigation from './components/Navigation'
 import Quotes from './containers/Quotes'
 import NewQuote from './containers/NewQuote'
+import QuoteDetails from './containers/QuoteDetails'
 
 class App extends Component {
   render() {
