@@ -19,7 +19,7 @@ const Navigation = () => {
                 exact
                 style={link}
                 activeStyle={{
-                    background: 'darkblue'
+                    background: '#282c34'
                 }}
             >Home</NavLink>
 
@@ -28,7 +28,7 @@ const Navigation = () => {
                 exact
                 style={link}
                 activeStyle={{
-                background: 'darkblue'
+                background: '#282c34'
                 }}
             >Quotes</NavLink>
         </div>
