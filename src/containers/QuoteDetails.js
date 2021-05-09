@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import GoBack from '../components/GoBack'
 
 class QuoteDetails extends Component {
     state = {
@@ -25,6 +26,7 @@ class QuoteDetails extends Component {
                 <h2>{this.state.fullQuote.keyword}</h2>
                 <h4>{this.state.fullQuote.quote}</h4>
                 <h4> – {this.state.fullQuote.author}</h4>
+                <GoBack />
             </div>
         )
     }
