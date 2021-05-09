@@ -21,10 +21,10 @@ class QuoteDetails extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="App-header">
                 <h2>{this.state.fullQuote.keyword}</h2>
-                <h4>Quote: {this.state.fullQuote.quote}</h4>
-                <h4>Author: {this.state.fullQuote.author}</h4>
+                <h4>{this.state.fullQuote.quote}</h4>
+                <h4> – {this.state.fullQuote.author}</h4>
             </div>
         )
     }

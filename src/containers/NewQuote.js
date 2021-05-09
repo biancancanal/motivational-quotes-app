@@ -31,7 +31,7 @@ export default class NewQuote extends Component {
     
     render() {
         return (
-            <div>
+            <div className="App-header">
                 <form onSubmit={this.handleSubmit}>
                     <h1>Add A New Quote!</h1>
                     <label>Key Words:</label><br/>
