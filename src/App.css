@@ -24,6 +24,13 @@
   color: white;
 }
 
+a {
+  color: white;
+}
+a:active {
+  color: blue;
+}
+
 .App-link {
   color: #61dafb;
 }

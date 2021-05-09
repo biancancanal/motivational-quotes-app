@@ -20,9 +20,8 @@ componentDidMount() {
     render() {
         const quotes = this.state.quotes.map(q => <QuoteLink key={q.id} quote={q}/>)
         return (
-            <div>
+            <div className="App-header">
                 <h3>Quotes</h3>        
-                <hr/>
                 {quotes}
                 <br/>
                 <NewButton/>
