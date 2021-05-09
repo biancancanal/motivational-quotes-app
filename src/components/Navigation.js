@@ -2,12 +2,13 @@ import { NavLink } from 'react-router-dom'
 import React from 'react'
 
 const link = {
-    width: '100px',
+    width: '200px',
+    border: '10px solid black' ,
     padding: '12 px',
-    margin: '0 6px 6 px',
+    margin: '0px',
     textDecoration: 'none',
     color: "white",
-    background: "blue"
+    background: "black"
 }
 
 const Navigation = () => {
