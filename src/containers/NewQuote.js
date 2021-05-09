@@ -26,7 +26,7 @@ export default class NewQuote extends Component {
         .then(r => r.json())
         .then(data => {
             console.log("New Quote", data)
-            // this.props.history.push('/stories')
+            this.props.history.push('/quotes')
         })
     }
     

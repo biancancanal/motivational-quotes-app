@@ -23,6 +23,18 @@
       "quote": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
       "author": "Ralph Waldo Emerson",
       "id": 4
+    },
+    {
+      "keyword": "Success",
+      "quote": "Success is not final; failure is not fatal. It is the courage to continue that counts.",
+      "author": "Winston S. Churchill",
+      "id": 5
+    },
+    {
+      "keyword": "Discipline",
+      "quote": "Discipline is doing what you really don't want to do so you can do what you really want to do.",
+      "author": "Jeff Fisher",
+      "id": 6
     }
   ]
 }
