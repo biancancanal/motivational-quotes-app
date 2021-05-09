@@ -1,5 +1,4 @@
 import { NavLink } from 'react-router-dom'
-
 import React from 'react'
 
 const link = {
@@ -31,15 +30,6 @@ const Navigation = () => {
                 background: 'darkblue'
                 }}
             >Quotes</NavLink>
-
-            {/* <NavLink
-                to="/"
-                exact
-                style={link}
-                activeStyle={{
-                    background: 'darkblue'
-                }}
-            >Add A Quote</NavLink> */}
         </div>
     )
 }
