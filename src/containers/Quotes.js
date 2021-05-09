@@ -25,6 +25,8 @@ componentDidMount() {
                 {quotes}
                 <br/>
                 <NewButton/>
+                <br/>
+                <img src= "/images/quotes.png" alt="Quote Cartoon"/>
             </div>
         )
     }

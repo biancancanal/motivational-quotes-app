@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import GoBack from '../components/GoBack'
 
 export default class NewQuote extends Component {
     state = {
@@ -42,6 +43,7 @@ export default class NewQuote extends Component {
                     <input name="author" value={this.state.author} onChange={this.handleChange} type="text"/><br/>
                     <br></br>                    
                     <input type="submit"/>
+                    <GoBack />
                 </form>
             </div>
         )
