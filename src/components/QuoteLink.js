@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export const QuoteLink = ({quote}) => {
+const QuoteLink = ({quote}) => {
     return (
         <div>
             <Link to={`/quotes/${quote.id}`}>
@@ -10,3 +10,5 @@ export const QuoteLink = ({quote}) => {
         </div>
     )
 }
+
+export default QuoteLink

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import NewButton from '../components/NewButton'
+import QuoteLink from '../components/QuoteLink'
 
  class Quotes extends Component {
     state = {
@@ -17,7 +18,7 @@ componentDidMount() {
     })
 }
     render() {
-        const quotes = this.state.quotes.map(q => <li>{q.keyword}: {q.quote} - {q.author}</li>)
+        const quotes = this.state.quotes.map(q => <QuoteLink key={q.id} quote={q}/>)
         return (
             <div>
                 <h3>Quotes</h3>        
