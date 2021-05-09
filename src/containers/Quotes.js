@@ -17,6 +17,9 @@ componentDidMount() {
         })
     })
 }
+
+
+
     render() {
         const quotes = this.state.quotes.map(q => <QuoteLink key={q.id} quote={q}/>)
         return (
