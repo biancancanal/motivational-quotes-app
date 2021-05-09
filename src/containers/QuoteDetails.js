@@ -2,25 +2,29 @@ import React, { Component } from 'react'
 
 class QuoteDetails extends Component {
     state = {
-        quotes: []
+        fullQuote: {
+            keyword: "", 
+            quote: "",
+            author: ""
+        }
     }
 
     componentDidMount() {
-        fetch(`http://localhost:3001/quotes${this.props.match.params.id}`)
+        fetch(`http://localhost:3001/quotes/${this.props.match.params.id}`)
         .then(res => res.json())
         .then(data => {
             console.log(data)
             this.setState({
-                quotes: data
+                fullQuote: data
             })
         })
     }
     render() {
-        // const quotes = this.state.quotes.map((q) => {q.id})
         return (
             <div>
-                Full Quote
-                {/* {quotes} */}
+                <h2>{this.state.fullQuote.keyword}</h2>
+                <h4>Quote: {this.state.fullQuote.quote}</h4>
+                <h4>Author: {this.state.fullQuote.author}</h4>
             </div>
         )
     }
