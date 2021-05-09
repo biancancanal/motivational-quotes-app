@@ -31,6 +31,11 @@ a:active {
   color: blue;
 }
 
+img {
+  height: 300px;
+  width: 400px;
+}
+
 .App-link {
   color: #61dafb;
 }
