@@ -14,7 +14,7 @@ class QuoteDetails extends Component {
         fetch(`http://localhost:3001/quotes/${this.props.match.params.id}`)
         .then(res => res.json())
         .then(data => {
-            console.log(data)
+            // console.log(data)
             this.setState({
                 fullQuote: data
             })
